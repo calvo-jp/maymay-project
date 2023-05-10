@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  padding: 1rem 2rem;
+}
+
+.navbar a {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  border: none;
+  white-space: nowrap;
+  background-color: transparent;
+  width: fit-content;
+  color: var(--neutral600);
+  text-decoration: none;
+  transition: color 300ms ease-in-out;
+}
+
+/* 
+ * +=====================+
+ * |  NAVBAR aka HEADER  |
+ * +=====================+
+ */
+
+.navbar svg {
+  width: 18px;
+  height: 18px;
+}
+
+.navbar a:focus,
+.navbar a:hover {
+  color: var(--primary500);
+}
+
+/* 
+ * +========+
+ * |  FORM  |
+ * +========+
+ */
+
+.form-wrapper {
+  width: 375px;
+  margin: 0 auto;
+}
+
+.inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 40px;
+  line-height: 1.25;
+}

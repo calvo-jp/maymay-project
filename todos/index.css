@@ -1,0 +1,156 @@
+.container {
+  margin: 0 auto;
+  padding: 1rem;
+  width: 100%;
+  max-width: 675px;
+}
+
+/* 
+ * +=====================+
+ * |  NAVBAR aka HEADER  |
+ * +=====================+
+ */
+
+.navbar {
+  max-width: 675px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.navbar .menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar .menu .divider {
+  height: 0.75rem;
+  width: 1px;
+  background-color: var(--neutral200);
+}
+
+.navbar .menu button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar .menu p {
+  color: var(--neutral700);
+}
+
+/* 
+ * +========+
+ * |  CARD  |
+ * +========+
+ */
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card {
+  padding: 1.25rem 1rem;
+  border: 1px solid var(--neutral200);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-main {
+  flex-grow: 1;
+}
+
+.card-heading {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.card-body {
+  color: var(--neutral600);
+  line-height: 1.15;
+}
+
+.card-icon {
+  background-color: transparent;
+  border: none;
+  height: fit-content;
+  width: fit-content;
+  color: var(--neutral300);
+  cursor: pointer;
+}
+
+.card-icon[data-complete="true"] {
+  color: var(--success400);
+  cursor: default;
+}
+
+.card-icon svg {
+  width: 20px;
+  height: 20px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.card-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.card-actions a,
+.card-actions button {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+  padding: 2px;
+}
+
+.card-actions a:hover,
+.card-actions button:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+.card-actions svg {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+
+/* 
+ * +==========================+
+ * |  FLOATING ACTION BUTTON  |
+ * +==========================+
+ */
+
+.fab {
+  position: fixed;
+  width: 48px;
+  height: 48px;
+  bottom: 2rem;
+  right: 2rem;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.fab svg {
+  width: 24px;
+  height: 24px;
+}

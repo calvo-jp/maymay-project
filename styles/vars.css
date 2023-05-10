@@ -1,0 +1,61 @@
+:root {
+	--neutral50: #fafafa;
+	--neutral100: #f5f5f5;
+	--neutral200: #e5e5e5;
+	--neutral300: #d4d4d4;
+	--neutral400: #a3a3a3;
+	--neutral500: #737373;
+	--neutral600: #525252;
+	--neutral700: #404040;
+	--neutral800: #262626;
+	--neutral900: #171717;
+	--neutral950: #0a0a0a;
+
+	--warning50: #fffbeb;
+	--warning100: #fef3c7;
+	--warning200: #fde68a;
+	--warning300: #fcd34d;
+	--warning400: #fbbf24;
+	--warning500: #f59e0b;
+	--warning600: #d97706;
+	--warning700: #b45309;
+	--warning800: #92400e;
+	--warning900: #78350f;
+	--warning950: #451a03;
+
+	--success50: #f0fdf4;
+	--success100: #dcfce7;
+	--success200: #bbf7d0;
+	--success300: #86efac;
+	--success400: #4ade80;
+	--success500: #22c55e;
+	--success600: #16a34a;
+	--success700: #15803d;
+	--success800: #166534;
+	--success900: #14532d;
+	--success950: #052e16;
+
+	--danger50: #fef2f2;
+	--danger100: #fee2e2;
+	--danger200: #fecaca;
+	--danger300: #fca5a5;
+	--danger400: #f87171;
+	--danger500: #ef4444;
+	--danger600: #dc2626;
+	--danger700: #b91c1c;
+	--danger800: #991b1b;
+	--danger900: #7f1d1d;
+	--danger950: #450a0a;
+
+	--primary50: #eff6ff;
+	--primary100: #dbeafe;
+	--primary200: #bfdbfe;
+	--primary300: #93c5fd;
+	--primary400: #60a5fa;
+	--primary500: #3b82f6;
+	--primary600: #2563eb;
+	--primary700: #1d4ed8;
+	--primary800: #1e40af;
+	--primary900: #1e3a8a;
+	--primary950: #172554;
+}
